@@ -10,7 +10,7 @@
 		1E5076F7386136C638556B87 /* Pods_uninet_ios_uninet_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB33C139B948C79F592FED81 /* Pods_uninet_ios_uninet_iosUITests.framework */; };
 		20CF2A80DF329272FC3E781E /* Pods_uninet_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455DCD7691D7E8E41DFB8C2D /* Pods_uninet_iosTests.framework */; };
 		50374FBEFFC7FCDA21EACB42 /* Pods_uninet_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BFA2459393FD505E3B8FDFA /* Pods_uninet_ios.framework */; };
-		FA1B784D27F63D9200CF0349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B784C27F63D9200CF0349 /* AppDelegate.swift */; };
+		FA15C9EB28DA2E39006C4EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B784C27F63D9200CF0349 /* AppDelegate.swift */; };
 		FA1B784F27F63D9200CF0349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B784E27F63D9200CF0349 /* SceneDelegate.swift */; };
 		FA1B785127F63D9200CF0349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1B785027F63D9200CF0349 /* ViewController.swift */; };
 		FA1B785427F63D9200CF0349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1B785227F63D9200CF0349 /* Main.storyboard */; };
@@ -518,7 +518,7 @@
 		DDF6462217D580B573A0C1CD /* Pods-uninet-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uninet-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-uninet-iosTests/Pods-uninet-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F561FBF504A1E52EF31CDFA0 /* Pods-uninet-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uninet-iosTests.release.xcconfig"; path = "Target Support Files/Pods-uninet-iosTests/Pods-uninet-iosTests.release.xcconfig"; sourceTree = "<group>"; };
 		FA1B784927F63D9200CF0349 /* uninet-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uninet-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA1B784C27F63D9200CF0349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA1B784C27F63D9200CF0349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		FA1B784E27F63D9200CF0349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA1B785027F63D9200CF0349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA1B785327F63D9200CF0349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -2806,6 +2806,7 @@
 				FAB9504028D4E81C006F23AF /* MessageMainThreadCell.swift in Sources */,
 				FAB94ECD28D4E798006F23AF /* LoginService.swift in Sources */,
 				FAB9529528D8226D006F23AF /* NonCallKitCallUIAdaptee.swift in Sources */,
+				FA15C9EB28DA2E39006C4EA4 /* AppDelegate.swift in Sources */,
 				FAB9510A28D670E2006F23AF /* MosiacLayout.swift in Sources */,
 				FAB9508728D4E81C006F23AF /* SubscriptionsSortingSeparatorView.swift in Sources */,
 				FAB950CA28D66546006F23AF /* UserProfileEmptyStateCell.swift in Sources */,
@@ -2852,7 +2853,6 @@
 				FAB9503A28D4E81C006F23AF /* QuoteCell.swift in Sources */,
 				FAB951B428D81FB6006F23AF /* ActivitySettingsView.swift in Sources */,
 				FAB951AB28D81FB6006F23AF /* AboutSwiftcordView.swift in Sources */,
-				FA1B784D27F63D9200CF0349 /* AppDelegate.swift in Sources */,
 				FAB950BE28D66546006F23AF /* HomePostCell.swift in Sources */,
 				FAB9502E28D4E81C006F23AF /* BaseAudioMessageCell.swift in Sources */,
 				FAB9508C28D4E81C006F23AF /* ServersListView.swift in Sources */,
