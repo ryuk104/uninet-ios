@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     }
 
-    
+    /*
     @UIApplicationMain
     class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -504,4 +504,5 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
             NotificationActionHandler.handleNotificationResponse(response, completionHandler: completionHandler)
         }
     }
+     */
 

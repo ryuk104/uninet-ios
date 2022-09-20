@@ -2356,6 +2356,9 @@
 				Base,
 			);
 			mainGroup = FA1B784027F63D9200CF0349;
+			packageReferences = (
+				FA15C9EC28DA4CF3006C4EA4 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			productRefGroup = FA1B784A27F63D9200CF0349 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3287,6 +3290,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA15C9EC28DA4CF3006C4EA4 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		FA1B785527F63D9200CF0349 /* uninet_ios.xcdatamodeld */ = {
