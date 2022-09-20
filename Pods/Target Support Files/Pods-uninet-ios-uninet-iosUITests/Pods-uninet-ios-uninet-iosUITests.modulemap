@@ -1,0 +1,6 @@
+framework module Pods_uninet_ios_uninet_iosUITests {
+  umbrella header "Pods-uninet-ios-uninet-iosUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
